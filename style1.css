@@ -1,0 +1,180 @@
+body#index_body {
+	background-color: yellow;
+}
+
+body#pao_body {
+
+}
+
+body#ge_body {
+
+}
+
+body#sapar_body {
+	background-image: url(./img/sapar_body.jpg);
+	
+}
+
+div#heading {
+	border: 1px solid black;
+	background-image: url(./img/lake.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+div#heading_pao{
+	border: 1px solid black;
+	background-image: url(./img/lake.jpg);
+}
+
+div#menu {
+	border: 1px solid black;
+	margin-top: 3px;
+}
+
+div#news {
+	border: 3px solid black;
+	margin-top: 15px;
+	width: 350px;
+	height: 435px;
+	float: left;
+	border-radius: 10px;
+}
+
+div#main_window {
+	border: 3px solid black;
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 900px;
+	height: 435px;
+	float: left;
+	border-radius: 10px;
+}
+
+div#lower_body {
+	border: 1px solid black;
+	margin: auto;
+}
+
+div#news_title {
+	background-color: #333;
+	text-align: center;
+}
+
+div#ge_content {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+section#monitor_pao {
+	border: 3px solid black;
+	margin-top: 15px;
+	width: 450px;
+	height: 200px;
+	float: left;
+	margin-left: 20px;
+}
+section#events_pao{
+	border: 30px solid black;
+	margin-top: 15px;
+	width: 335px;
+	height: 400px;
+	float: left;
+}
+section#sign_pao{
+	margin-top: 15px;
+	width: 450px;
+	height: 200px;
+	float: right;
+	
+}
+h1#tanod_pao{
+	text-align: center;
+}
+h1#case_pao{
+	text-align: center;
+}
+footer#pao_more_info{
+	margin-top: 25px;
+	float: right;
+	margin-right: 250px;
+	width: 200px;
+}	
+
+p#news_heading {
+	color: white;
+}
+
+p#new_monster {
+	text-align: center;
+	font-size: 20px;
+}
+p#new_monster_content {
+	font-size: 20px;
+}
+
+
+img#sign{
+	width: 430px;
+	height: 470px;	
+}
+
+img#heading_img_index {
+	width: 80%;
+	height: 120px;
+	margin: auto;
+	display: block;
+}
+
+img#heading_img_pao {
+	width: 80%;
+	height: 120px;
+	margin: auto;
+	display: block;
+}
+img#img_abcr{
+	width: 901px;
+	height: 435px;
+}
+
+
+
+
+
+
+
+
+
+
+
+h2{
+	text-indent: 10px;
+  }
+h3 {
+	text-indent: 25px;
+   }
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
