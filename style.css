@@ -1,0 +1,175 @@
+/*************************************StyleFor Index************/
+
+/*Body Style*/
+body{
+	background-image: url("../img/bg.jpg");
+	background-repeat:no repeat;
+}
+
+
+/* Heading image*/
+img#heading_img_index {
+	margin-bottom: 3%;
+	width: 100% ;
+	height: 100% ;
+	margin: auto;
+}
+
+/*Box in index*/
+div#main_window {
+	background-color: white;
+	border: 10px solid white;
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+	position: center;
+	margin-top: 5%;
+	width: 100px auto;
+	height: 100px auto ;
+	border-radius: 10px;
+	text-align: center;
+}
+
+/*Box inside box*/
+div#pao_index_container1{
+	border: 10px solid black;
+}
+
+/**Next button style*/
+p.next{
+	font-family: Courier New;
+	font-size: 1.5em;
+}
+
+/*Brangay Style*/
+p.font1 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:1.5em;
+}
+
+/*Other style for next button*/
+a:hover{
+	color:blue;
+}
+a:visited{
+	color: green;
+}
+a:active{
+	color: red;
+}
+
+/**************************Style for Gender_Equality.HTML******/
+body#ge_body {
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10%;
+}
+/**---------------------------------Menu**/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	height: auto;
+	border-radius:15px;
+	background-color: #333;
+
+}
+
+li {
+	float: left;
+    padding-left: 10%;
+    padding-top: auto;
+}
+
+li a {
+	display:inline-block;
+	color: white;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	border-radius: 50%;
+	width: 60%;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+
+/**---------------------------------Content Arcticle **/
+
+div#ge_content {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right:5%;
+	background-color: white;
+}
+
+p#new_monster {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+p#new_monster_content{
+	position: center;
+	margin-top:10%;
+	margin-bottom: 10%;
+	margin-left:10%;
+	margin-right: 10% ;
+}
+
+
+p#new_monster_content {
+	font-size: 1.3em;
+	text-align:justify;
+}
+
+a#why{
+	font-family: ;
+	color: black;
+}
+
+a#sexism{
+	font-family: Times New Roman;
+	color: black;
+	text-justify: none;
+	text-align:justify;
+}
+/***--------------------------------------------about us*/
+div.about_us {
+	float:  left auto;
+	text-align: center;
+	border: 1px solid black;
+	margin-top: 10%;
+	height: 25em;
+}
+div.about_us_div {
+	float: left;
+	padding: auto;
+}
+
+img.about_us_img {
+	margin-left:auto;
+	margin-right:auto;
+	position:center;
+	width: 10em;
+	height: 10em;
+	padding:0.6em;
+}
+p.names{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:1em;
+	text-align:center;
+	background-color:white;
+}
+
+p.font2 {
+	color: black;
+	background-color:white;
+	font-size: 2.5em;
+}
+
+
