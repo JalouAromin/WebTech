@@ -1,0 +1,205 @@
+body#index_body {
+	background-color: green;
+}
+
+/*Index window*/
+div#main_window {
+	background-image: url(../img/abcr.png);
+	background-size: 26%;
+	background-repeat: no repeat;
+	border: 10px solid black;
+	position: center;
+	margin-top: 5%;
+	width: 100%;
+	height: 100% ;
+	border-radius: 10px;
+	text-align: center;
+}
+
+div#pao_index_container1{
+	color: red;
+}
+
+p#next{
+	color: red;
+}
+/*****Substance abuse Body Style */
+body#sapar_body {
+	background-image: url(../img/bhall.jpg);
+	background-size: 100%;
+	background-repeat:no repeat;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10%;
+	
+}
+
+/**Heading sapr*/
+div#heading_sapr{
+	border: 3px solid black;
+	margin: auto;
+	width: 70%;
+	height: 30%;
+	padding: 10px;
+}
+
+/*Style for the News Box*/
+div#news {
+	background-color: #FFEBCD;
+	border: 1px solid black;
+	margin-top: 15px;
+	width: 260px;
+	height: 410px;
+	float: left;
+	border-radius: 10px;
+	margin-left: 2%;
+}
+
+
+/*Style for the News title*/
+div#news_title {
+	font-family: Courier New;
+	background-color: #333;
+	text-align: center;
+}
+
+
+/*Style for the main window(sapar, prevention)*/
+div.container1 {
+	background-color: #FFEBCD;
+	border: 1px solid black;
+	margin-top: 15px;
+	width: 70%;
+	height: 410px;
+	float: left;
+	margin-left: 20px;
+	border-radius: 15px;
+}
+
+/*Style for the second window( regain and recover, contact) */
+div.container2 {
+	background-color: #FFEBCD;
+	border:1px solid black;
+	margin-top: 15px;
+	width: 96%;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+/*Style for about us window*/
+div.about_us {
+	background-color: #FFEBCD;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	margin-top: 10px;
+	border-radius: 15px;
+	width: 100%;
+}
+
+div.about_us_div {
+	float: left;
+	padding: 2%;
+	padding-left: 4%;
+}
+
+
+/*style for menu*/
+div#menu {
+	
+	margin-top: 3px;
+	
+}
+
+
+/*Style for the news */
+p#news_heading {
+	color: white;
+}
+
+/*fonts*/
+p.font1 {
+	font-size: 25px;
+}
+
+p.font2 {
+	font-family:"Old English Text MT";
+	text-align: center;
+	font-size: 25px;
+}
+
+
+
+/*heading image*/
+img#heading_img_index {
+	margin-bottom: 3%;
+	width: 50% ;
+	height: 100% ;
+	left: 50%;
+	
+	
+}
+
+
+
+img.about_us_img {
+	width: 100px;
+	height: 100px;
+	padding: 5%;
+}
+
+
+
+
+
+
+
+
+/******Menu for SUBSTANCE ABUSE*/
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	height: auto;
+	border-radius:15px;
+	background-color: #333;
+
+}
+
+li {
+	float: left;
+    padding-left: 2%;
+    padding-top: auto;
+}
+
+li a {
+	display:inline-block;
+	color: white;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	border-radius: 50%;
+	width: 60%;
+	
+
+}
+
+li a:hover {
+	font-weight:bold;
+}
+
+a::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
